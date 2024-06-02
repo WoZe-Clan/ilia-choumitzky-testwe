@@ -1,0 +1,242 @@
+/* styles de base pour le corps de la page */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff8e1; /* Couleur de fond */
+}
+
+/* l'en-tête */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Espace entre les éléments de l'en-tête */
+    padding: 10px 20px;
+    background-color: #000000; /* Couleur de fond de l'en-tête */
+    flex-wrap: wrap;
+}
+
+/* La partie gauche de l'en-tête */
+.left-header {
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.buttons-retour{
+  display: flex;
+gap: 10px;
+flex-wrap: wrap;  
+}
+
+
+/* logo */
+.logo {
+    height: 41px;
+    margin-right: 10px;
+}
+
+/* les boutons de filtre */
+.filter-buttons {
+    display: flex;
+    gap: 10px; /* Espace des boutons */
+    flex-wrap: wrap;
+}
+
+/* boutons */
+.button {
+    background-color: #2563EB;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s, transform 0.3s; /* Animation du survol */
+}
+
+/* boutons au survol */
+.button:hover {
+    background-color: #2563EB;
+    transform: scale(1.05); /* Agrandissement le survol */
+}
+
+/* champ de recherche */
+.search-input {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1em;
+    align-self: flex-end;
+    width: 100%;
+    max-width: 250px;
+}
+
+/*contenu principal */
+.main-content {
+    padding: 30px;
+}
+
+/* détails du contenu principal */
+.main-content-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+/*images des personnages */
+.character-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+    width: 100%;
+}
+
+.img-détails {
+    margin: auto;
+}
+
+/* Couleur du texte */
+.p-6 {
+    color: #000000;
+}
+
+/* images avec bordure */
+.img-color {
+    background-color: #ffffff !important;
+    border: var(--bs-border-width) var(--bs-border-style) #000000 !important;
+}
+
+/* liste des personnages */
+.character-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Grille réactive */
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* les cartes de personnages */
+.character-card {
+    position: relative;
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; 
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s; /* Animation lors du survol */
+    overflow: hidden;
+}
+
+/* Effet de survol pour les cartes de personnages */
+.character-card:hover {
+    transform: translateY(-5px); /* élévation au survol */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-1 {
+    background-color: #ffffff !important;
+}
+
+/* éléments vivants */
+.Alive {
+    color: black !important;
+}
+
+/* pagination */
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    background-color: #155df8;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+/* boutons de pagination */
+.pagination button:hover {
+    background-color: #000000;
+}
+
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .left-header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .filter-buttons {
+        justify-content: flex-start;
+    }
+
+    .main-content {
+        padding: 15px;
+    }
+
+    .character-list {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .button {
+        padding: 8px 16px;
+        font-size: 0.9em;
+    }
+
+    .search-input {
+        width: 100%;
+        max-width: 100%;
+        margin: auto !important;
+    }
+
+    .h-44 {
+        height: auto !important;
+    }
+}
+
+
+.md\:h-64 {
+    height: auto !important;
+}
+
+
+@media (max-width: 480px) {
+    .character-list {
+        grid-template-columns: 1fr;
+    }
+
+    .left-header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .character-card {
+        padding: 10px;
+    }
+
+    .button {
+        padding: 6px 12px;
+        font-size: 0.8em;
+    }
+
+    .search-input {
+        padding: 8px;
+        font-size: 0.9em;
+        margin: auto !important;
+    }
+}
