@@ -17,7 +17,7 @@ Lance le testeur en mode montre interactive.\
 
 Docker : 
 
-docker build -t nom de l'image .
+### `docker build -t nom de l'image .`
 
 
 Fait par :
