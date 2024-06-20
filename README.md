@@ -11,7 +11,7 @@ La page se rechargera lorsque vous apporterez des modifications.\
 
 ### `npm test`
 
-Lance le testeur en mode montre interactive.\
+Lance le testeur en mode montre interactive.
 
 ### `npm run build`
 
