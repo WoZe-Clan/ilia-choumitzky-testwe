@@ -4,9 +4,9 @@ Dans le répertoire du projet, vous pouvez exécuter :
 
 ### `npm start`
 
-Exécute l'application en mode développement.\
+Exécute l'application en mode développement.
 Ouvrir  [http://localhost:3000](http://localhost:3000) pour le visualiser dans votre navigateur.
-La page se rechargera lorsque vous apporterez des modifications.\
+La page se rechargera lorsque vous apporterez des modifications.
 
 
 ### `npm test`
