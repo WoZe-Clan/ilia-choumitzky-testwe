@@ -1,4 +1,4 @@
-Pour visualiser : github.com/<organization>/<repository>/blob/<branch_name>/README.md?plain=1
+Pour visualiser : (<url relative ou absolue>)
 
 ## Available Scripts
 
