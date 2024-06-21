@@ -1,4 +1,4 @@
-Pour visualiser :[voxio.fr/rick-and-morty](voxio.fr/rick-and-morty)
+Pour visualiser : github.com/<organization>/<repository>/blob/<branch_name>/README.md?plain=1
 
 ## Available Scripts
 
