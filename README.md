@@ -1,3 +1,5 @@
+Pour visualiser : voxio.fr/rick-and-morty
+
 ## Available Scripts
 
 Dans le répertoire du projet, vous pouvez exécuter :
