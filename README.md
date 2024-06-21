@@ -1,4 +1,4 @@
-Pour visualiser : (<https://voxio.fr/rick-and-morty****>)
+Pour visualiser : (<https://voxio.fr/rick-and-morty>)
 
 ## Available Scripts
 
